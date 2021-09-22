@@ -1,0 +1,39 @@
+
+
+CREATE DATABASE prefeitura;
+USE prefeitura;
+CREATE TABLE secretaria(
+        codigo INT(6),
+        nome VARCHAR(20),
+        telefone INT(13),
+        PRIMARY KEY (codigo)
+);
+
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(1,"Procuradoria Geral do Município",120593827532);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(2,"Procuradoria Geral do Município",039471729432);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(3,"Secretaria Especial de Comunicação",102958473657);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(4,"Secretaria do Governo do Município",203948592012);
+ALTER TABLE secretaria MODIFY COLUMN nome VARCHAR(120);
+ALTER TABLE secretaria MODIFY COLUMN telefone BIGINT;
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(5,"Secretaria Especial de Relações Sociais",123123123123);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(6,"Secretaria Executiva de Legislação",321321321321);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(7,"Secretaria Municipal da Fazenda",23412342314);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(8,"Secretaria Municipal da Subprefeitura",3451351435145);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(9,"Secretaria Municipal da Pessoa Fisica",83141431);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(10,"Secretaria Municipal do Meio Ambiente",3145143141545);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(11,"Secretaria Municipal das Relações internacionais",91311233212313);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(12,"Secretaria Municipal de Assistência e Desenvolvimento Social",3213131512511);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(13,"Secretaria Municipal de Cultura",9889854563);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(14,"Secretaria Municipal de Desenvolvimento Econômico, Trabalho e Turismo",634564356546);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(15,"Secretaria Municipal dos Direitos Humanos",1435435436754);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(16,"Secretaria Municipal de Educação",265477483725);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(17,"Secretaria Municipal de Esportes e Lazer",1436134641);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(18,"Secretaria Municipal de Desenvolvimento Social",787876556565);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(19,"Secretaria Municipal de Infraestrutura Urbana",54643645634);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(20,"Secretaria Municipal de Tecnologia",6526345645363);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(21,"Secretaria Municipal de Justiça",234325654734);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(22,"Secretaria Municipal de Mobilidade e Transporte",3465234624);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(23,"Secretaria Municipal de Monopolização",6542645643265);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(24,"Secretaria Municipal de Segurança Urbana"958673018572);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(25,"Secretaria Municipal de Urbanismo e Licenciamento",253252343264);
+INSERT INTO secretaria(codigo, nome, telefone)VALUES(26,"Secretaria Municipal do Verde e do Meio Ambiente",54234324361);
